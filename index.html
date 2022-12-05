@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 사이트 이름 -->
+    <title>2023년 버킷리스트</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Hahmlet&family=Poppins:ital,wght@0,300;1,700&family=Source+Sans+Pro:ital,wght@1,300&display=swap");
+      /* *은 전체다 지정하겠다. */
+      * {
+        font-family: "Hahmlet", serif;
+      }
+      .title {
+        color: white;
+        background-color: tomato;
+        font-size: 24px;
+        padding: 4px 14px;
+        border-radius: 8px;
+      }
+      .bg {
+        /* 가로폭 주는 것 */
+        width: 360px;
+        background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+      }
+      .msg {
+        font-weight: bold;
+        color: black;
+      }
+      .bucket {
+        width: 160px;
+        height: 160px;
+      }
+
+      .img1 {
+        background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+        background-size: cover;
+        background-position: center;
+      }
+
+      .img2 {
+        background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+        background-size: cover;
+        background-position: center;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css"
+    />
+  </head>
+  <body class="bg-t3 center">
+    <!-- 제목부분 -->
+    <h1 class="title-t3 center">2023년 신년계힉</h1>
+    <!-- 문단을 나오게 하는것  -->
+    <p class="msg center">올해는 취업하자!!!</p>
+    <div class="row flex-row wrap">
+      <!-- done을 쓰면 완료 버튼이 사용된다. -->
+      <div class="bucket img1-t6 center">바디프로필 찍기</div>
+      <div class="bucket img2-t6 center">프론트 기능 알기</div>
+      <div class="bucket img2-t6 center">주 3회 공부 배우기</div>
+      <div class="bucket img1-t6 center">aws 공부다시하기</div>
+      <div class="bucket img1-t6 center">제 2외국어 공부하기</div>
+      <div class="bucket img2-t6 center">가계부 쓰기</div>
+    </div>
+  </body>
+</html>
